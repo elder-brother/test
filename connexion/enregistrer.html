@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+ <head>
+   <meta charset="utf-8" />
+   <link rel="stylesheet" href="style.css" />  
+   <title>S'enregistrer</title>
+ </head>	
+
+<body>
+
+
+<form>
+<fieldset>
+<legend>Inscription</legend></br>
+Sexe :
+Homme<input type="radio" value="homme" name="sexe"/>
+Femme<input type="radio" value="femme" name="sexe"/>
+</br>
+<input type="text"  name="Nom" placeholder="Nom" size="35" maxlength="30" /> 
+</br>
+<input type="text"  name="Prenom" placeholder="Prénom" size="35" maxlength="30" />
+</br>
+Date de naissance :
+<select name="jour">
+<option> 01 </option><option> 02 </option><option> 03 </option><option> 04 </option><option> 05 </option><option> 06 </option><option> 07 </option><option> 08 </option><option> 09 </option><option> 10 </option>
+<option> 11 </option><option> 12 </option><option> 13 </option><option> 14 </option><option> 15 </option><option> 16 </option><option> 17 </option><option> 18 </option><option> 19 </option><option> 20 </option>
+<option> 21 </option><option> 22 </option><option> 23 </option><option> 24 </option><option> 25 </option><option> 26 </option><option> 27 </option><option> 28 </option><option> 29 </option><option> 30 </option></option><option> 29 </option><option> 31 </option>
+</select>
+/
+<select name="mois">
+<option> Janvier </option><option> Février </option><option> Mars </option><option> Avril </option><option> Mai </option><option> Juin </option><option> Juillet </option><option> Août </option>
+<option> Septembre </option><option> Octobre </option><option> Novembre </option><option> Décembre </option>
+</select>
+/
+<select name="annee">
+<option> 2000 </option><option> 1999 </option><option> 1998 </option><option> 1997 </option><option> 1996 </option><option> 1995 </option><option> 1994 </option><option> 1993 </option>
+<option> 1992 </option><option> 1991 </option><option> 1990 </option><option> 1989 </option><option> 1988 </option><option> 1987 </option><option> 1986 </option><option> 1985 </option>
+<option> 1984 </option><option> 1983 </option><option> 1982 </option><option> 1981 </option><option> 1980 </option><option> 1979 </option><option> 1978 </option><option> 1977 </option>
+<option> 1976 </option><option> 1975 </option><option> 1974 </option><option> 1973 </option><option> 1972 </option><option> 1971 </option><option> 1970 </option><option> 1969 </option>
+</select>
+</br>
+<input type="text" name="Ville" placeholder="Ville" size="35" maxlenght="30" />
+
+</br>
+<input type="text" name="Email" placeholder="E-mail" size="50" maxlenght="50" />@<input type="text" name="Inscription" size="10" maxlenght="10" />
+</br>
+<input type="text" name="password" placeholder="Mot de passe" size="30" maxlenght="30"/>
+</br>
+<input type="text" name="password2" placeholder="Confirmez votre mot de passe" size="30" maxlenght="30"/>
+</br>
+Formation :
+DUT
+<input type="radio" value="DUT" name="diplome" />
+Licence Pro
+<input type="radio" value="Licence Pro" name="diplome" />
+Licence
+<input type="radio" value="Licence" name="diplome" />
+Master
+<input type="radio" value="Master" name="diplome" />
+Doctorat
+<input type="radio" value="Doctorat" name="diplome" />
+</br>
+
+<textarea type="textbox" name="Loisirs" placeholder="Loisirs" size="100" maxlength="100"/>
+</textarea>
+</br>
+
+Voiture :
+OUI<input type="radio" value="oui" name="voit"/>
+NON<input type="radio" value="non" name="voit"/>
+</br>
+
+Co-voiturage :
+OUI<input type="radio" value="oui" name="covoit"/>
+NON<input type="radio" value="non" name="covoit"/>
+
+</br></br>
+<input type="submit" value="Valider">
+<input type="reset" value="Annuler">
+</fieldset>
+</form>	  
+</body>
+</html>
